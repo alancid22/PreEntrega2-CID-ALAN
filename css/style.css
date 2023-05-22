@@ -52,8 +52,52 @@ body{
 }
 
 .galeria{
-    background-color: #0E1513;
+    background: linear-gradient( 
+        233.95deg, 
+        rgb(48, 184, 202) -73.12%, 
+        rgb(79, 255, 246) 53.36%, 
+        rgba(0, 71, 22, 0.89) 103.17% 
+    ), 
+    #c4a5a5; 
+    background-blend-mode: multiply, multiply, normal; 
     padding: 40px 0;
 }
 
-@media(min-width: 1024px)
+@media(min-width: 1024px){
+    .galeria{
+        padding: 80px 120px;
+    }
+}
+footer{
+    background: linear-gradient( 
+        233.95deg, 
+        rgb(48, 184, 202) -73.12%, 
+        rgb(79, 255, 246) 53.36%, 
+        rgba(0, 71, 22, 0.89) 103.17% 
+    ), 
+    #c4a5a5; 
+    background-blend-mode: multiply, multiply, normal; 
+    padding: 40px 0;
+}
+
+  .footer__content{
+    padding: 40px 0;
+  }
+  
+  @media (min-width:1024px) {
+    .footer__content{
+      padding: 80px 120px;
+    }
+  }
+  
+  .footer__nav{
+    border-bottom: 1px solid #000000;
+    padding-bottom: 40px;
+  }
+  
+  .footer__content nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
