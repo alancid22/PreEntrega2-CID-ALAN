@@ -68,6 +68,7 @@ body{
         padding: 80px 120px;
     }
 }
+
 footer{
     background: linear-gradient( 
         233.95deg, 
@@ -100,4 +101,12 @@ footer{
     padding: 0;
     display: flex;
     gap: 20px;
+  }
+
+  .home{
+    color: white;
+  }
+
+  .contact{
+    color: #000000;
   }

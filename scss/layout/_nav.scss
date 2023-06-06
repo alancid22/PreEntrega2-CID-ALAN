@@ -1,0 +1,25 @@
+.navbar {
+
+a{ 
+    color: $color-primary; 
+} 
+ 
+.navbar-toggler{ 
+    border-color: $color-primary; 
+    color: $color-primary; 
+} 
+ 
+.nav-link:focus, .nav-link:hover { 
+    color: #000000; 
+} 
+ 
+.navbar-toggler:focus{ 
+    box-shadow: none; 
+} 
+
+.collapse.navbar-collapse{ 
+    flex-grow: inherit; 
+ 
+} 
+
+}

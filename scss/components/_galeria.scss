@@ -1,0 +1,17 @@
+.galeria{
+    background: linear-gradient( 
+        233.95deg, 
+        rgb(48, 184, 202) -73.12%, 
+        rgb(79, 255, 246) 53.36%, 
+        rgba(0, 71, 22, 0.89) 103.17% 
+    ), 
+    #c4a5a5; 
+    background-blend-mode: multiply, multiply, normal; 
+    padding: 40px 0;
+}
+
+@media(min-width: 1024px){
+    .galeria{
+        padding: 80px 120px;
+    }
+}
